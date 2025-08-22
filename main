@@ -5,6 +5,8 @@ import java.util.*;
      */
     public static void main(String[] args) {
           Scanner sc = new Scanner(System.in);
+         System.out.println (" Mini Zoológico de Ornis "); 
+          System.out.println (" me esta volviendo loca el git !!!!! " ) (borren esto despues jajaj )
     }
     
 }
