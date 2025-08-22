@@ -15,7 +15,7 @@ public class Ocnitorrinco {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    //este es el main
+    //este es el main de
     
     }
     
