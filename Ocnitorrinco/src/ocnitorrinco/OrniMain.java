@@ -40,7 +40,15 @@ public class OrniMain {
             verde.tocarGuitarra();
             verde.tocarOrgano();
             verde.tocarGuitorgan();
-
+ System.out.println("*** Habilidades de OrniAzul Blue ***");
+            System.out.println("Ingrese propulsión de Blue (5 a 10):");
+            int propBlue = sc.nextInt();
+            blue.nadar(propBlue);
+  System.out.println("*** Habilidades de OrniAzul Blui ***");
+            System.out.println("Ingrese propulsión de Blui (5 a 10):");
+            int propBlui = sc.nextInt();
+            blui.nadar(propBlui); 
+            
          
     }
     }
