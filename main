@@ -1,0 +1,13 @@
+public class ocnitorrincoOcnitorrinco {
+import java.util.*;
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+          Scanner sc = new Scanner(System.in);
+         System.out.println (" Mini Zoológico de Ornis "); 
+          System.out.println (" me esta volviendo loca el git !!!!! " ) (borren esto despues jajaj )
+  System.out.println "a mi igual XD";
+    }
+    
+}
