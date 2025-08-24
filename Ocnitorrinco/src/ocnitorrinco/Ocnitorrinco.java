@@ -15,7 +15,7 @@ public class Ocnitorrinco {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       
+        System.out.println("Los ornitorrincos son mamíferos");
     }
     
 }
