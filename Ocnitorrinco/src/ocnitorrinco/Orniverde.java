@@ -28,5 +28,9 @@ public class Orniverde extends Castor implements Mamapato {
         seguir= leer.next();
         System.out.println("Fa-Sol-La-Si");
     }
-    
+      public void tocarGuitorgan() {
+        super.tocarGuitarra(); 
+        this.tocarOrgano();   
+        System.out.println("cuac cuaac…!");
+    }
 }
