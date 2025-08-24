@@ -13,4 +13,5 @@ public interface Mamapato {
     double PICO = 6.8;
     double PATAS = 7.5;
     public void tocarOrgano();
+    //System.out.println("TEST");
 }
