@@ -49,7 +49,7 @@ public class OrniMain {
             int propBlui = sc.nextInt();
             blui.nadar(propBlui); 
             
-         
+         System.out.println("es una prueba ");
     }
     }
     
