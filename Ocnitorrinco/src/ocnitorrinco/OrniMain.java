@@ -15,44 +15,53 @@ public class OrniMain {
      */
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
-      
-      Try{
+      Castor []l=new Castor[3];
+      try{
         System.out.println("Ingrese longitud de cola del OrniVerde:");
         double colaVerde = sc.nextDouble();
             System.out.println("Ingrese velocidad del OrniVerde:");
             int velVerde = sc.nextInt();
-            Orniverde verde = new Orniverde(colaVerde, velVerde);
-            
+            Castor verde = new Orniverde(colaVerde, velVerde);
+            l[0]=verde;
             System.out.println("Ingrese longitud de cola del OrniAzul Blue:");
             double colaBlue = sc.nextDouble();
             System.out.println("Ingrese velocidad de Blue:");
             int velBlue = sc.nextInt();
-            Orniazul blue = new Orniazul(colaBlue, velBlue);
             
-             System.out.println("Ingrese longitud de cola del OrniAzul Blui:");
+            Castor blue = new Orniazul(colaBlue, velBlue);
+            l[1]=blue;
+            System.out.println("Ingrese longitud de cola del OrniAzul Blui:");
             double colaBlui = sc.nextDouble();
             System.out.println("Ingrese velocidad de Blui:");
             int velBlui = sc.nextInt();
-            Orniazul blui = new Orniazul(colaBlui, velBlui);
             
-             System.out.println("\n--- Habilidades del OrniVerde (Grupo2) ---");
-            verde.nadar();
-            verde.tocarGuitarra();
-            verde.tocarOrgano();
-            verde.tocarGuitorgan();
+            Castor blui = new Orniazul(colaBlui, velBlui);
+            l[2]=blui;
+        }catch (ArrayIndexOutOfBoundsException exe){
+            System.out.println("La posicion en el arreglo no existe");
+        }
+            
+            
+            System.out.println("\n--- Habilidades del OrniVerde (Grupo2) ---");
+            l[0].nadar();
+            l[0].tocarGuitarra();
+            l[0].tocarOrgano();
+            l[0].tocarGuitorgan();
             System.out.println("*** Habilidades de OrniAzul Blue ***");
             System.out.println("Ingrese propulsión de Blue (5 a 10):");
             int propBlue = sc.nextInt();
-            blue.nadar(propBlue);
+            ((Orniazul) l[1]).nadar(propBlue);
             System.out.println("*** Habilidades de OrniAzul Blui ***");
             System.out.println("Ingrese propulsión de Blui (5 a 10):");
             int propBlui = sc.nextInt();
-            blui.nadar(propBlui); 
+            ((Orniazul) l[2]).nadar(propBlui);
+            
+            
             
          System.out.println("es una prueba ");
          
          System.out.println("pruebas segundaaa");
     }
-    }
+    
     
 }
