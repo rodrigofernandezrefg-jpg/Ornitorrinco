@@ -50,7 +50,8 @@ public class OrniMain {
             blui.nadar(propBlui); 
             
          System.out.println("es una prueba ");
-         System.out.println("djfndj");
+         
+         System.out.println("pruebas segunda");
     }
     }
     
