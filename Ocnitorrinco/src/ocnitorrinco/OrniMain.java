@@ -51,7 +51,7 @@ public class OrniMain {
             
          System.out.println("es una prueba ");
          
-         System.out.println("pruebas segunda");
+         System.out.println("pruebas segundaaa");
     }
     }
     
