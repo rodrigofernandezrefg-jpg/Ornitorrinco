@@ -57,9 +57,7 @@ public class OrniMain {
         int propBlui = sc.nextInt();
         ((Orniazul) l[2]).nadar(propBlui);
 
-        System.out.println("es una prueba ");
-
-        System.out.println("pruebas segundaaa");
+        
     }
 
 }
